@@ -50,8 +50,8 @@ a.banner:hover,a.banner:active {
 }
 
 #console {
-  background-color:#000;
-  color:#FFF;
+  background-color:#222;
+  color:#000;
   font-size:12px;
   font-weight:700
 }
