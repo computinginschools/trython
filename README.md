@@ -1,2 +1,2 @@
-# trython
+# Trython
 Brython Programming Environment
