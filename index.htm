@@ -1,10 +1,30 @@
+<!doctype html>
 <html>
 <head>
+  <title>Brython interactive mode</title>
+  <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
+  <noscript>Please enable Javascript to view this page correctly.</noscript>
+  <link rel=stylesheet href="css/doc_brython.css">
   <script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/stable/www/src/brython.js"></script>
   <script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/stable/www/src/brython_stdlib.js"></script>
+  <style>
+    .codearea {
+        background-color:#000;
+        color:#fff;
+        font-family:'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
+        font-size:14px;
+        overflow:auto
+    }
+    div, textarea {
+        height:100%;
+        width:98%
+    }
+  </style>
 </head>
 <body onload="brython()">
   It works!
-  <script type="text/python" src="scripts/CamelCap.py"></script>
+  <textarea id=code class=codearea rows=20></textarea>
+  <div id=content></div>
+  <script type="text/python3" src="tests/console.py"></script>
 </body>
 </html>
